@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  display: block;
+  background-color: #1e1f26;
+  color: #faebd7;
+}
+.wrapper {
+  margin: 0 auto;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.social {
+  margin: 0 auto;
+  width: 50%;
+  padding: 30px;
+  border: 2px solid #03dac6;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+header {
+  margin: 0 auto;
+  background-color: #1e1f26;
+  padding: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: "Josefin Sans", sans-serif;
+  color: #03dac6;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  width: 70%;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  font-size: 2vw;
+  padding-bottom: 30p;
+  text-align: center;
+}
+footer {
+  background-color: #000;
+  box-shadow: 50px 20px 50px rgba(0, 0, 0, 0.5);
+}
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 200;
+  color: #909090;
+  text-align: center;
+  padding: 20px;
+}
+i {
+  color: #fff;
+  font-size: 2vw;
+  transition: all 0.3s ease;
+  padding: 18px;
+}
+i:hover {
+  transform: translate3d(0, -12px, 22px);
+  color: #03dac6;
+}
+h1:hover {
+  color: #faebd7;
+}
+h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3.7vw;
+}
+.h2 {
+  font-size: 3vw;
+}
+a {
+  color: #faebd7;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+a:hover {
+  color: #03dac6;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  h1 {
+    font-size: 3em;
+  }
+}
